@@ -39,14 +39,14 @@
                             <h2 class="text-center">Logo Designing</h2>
 
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter Your Logo Name" name="logoname">
+                                <input type="text" class="form-control" placeholder="Enter Your Logo Name" name="logoname" required>
                             </div><!-- /.form-group -->
 
                             <div class="form-group">
 
                        
                    
-                             <select class="form-control" title="Select Your Industry" name="cat">
+                             <select class="form-control" title="Select Your Industry" name="cat" required>
                                         {% for i in data  %}
                                     <option>{{i.cname}}</option>
                                         {% endfor %}
@@ -55,11 +55,11 @@
                             </div><!-- /.form-group -->
 
                             <div class=" form-group">
-                              <input type="text" class="form-control" placeholder="Enter Your Company Name (Optional)" name="companyname">
+                              <input type="text" class="form-control" placeholder="Enter Your Company Name (Optional)" name="companyname" required>
                             </div><!-- /.form-group -->
 
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Min. Price" name="price">
+                                <input type="text" class="form-control" placeholder="Min. Price" name="price" required>
                             </div><!-- /.form-group -->
                    
                             <button type="submit" class="btn btn-primary btn-block">Create My Logo</button>

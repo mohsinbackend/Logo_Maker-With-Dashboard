@@ -9023,7 +9023,7 @@ h2.widgettitle {
   background-color: #fff;
   margin: 0px 0px 40px 0px;
   padding: 20px;
-  border: 7px solid #005596;
+  
    }
   .filter .checkbox-wrapper {
     margin-bottom: 10px; }
@@ -10474,7 +10474,7 @@ ol li {
 .main {
   display: table-row;
   height: 100%; 
-  background: white;
+  /*background: #fda700;*/
 }
 
 .main-inner {
