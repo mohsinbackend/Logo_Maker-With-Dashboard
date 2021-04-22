@@ -92,7 +92,8 @@
             <div class="detail-gallery-preview">
                 <a href="{% static 'img/tmp/gallery-1.jpg'%}">
                 {% for i in data %}
-                    <img src="/upload/{{i.img}}">
+                    
+                    <img src="/upload/{{i.img}}" height=200px width=300>
                  
                 </a>
             </div>
